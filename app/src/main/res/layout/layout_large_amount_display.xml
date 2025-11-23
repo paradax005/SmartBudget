@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EditText xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/etAmount"
+    style="@style/Widget.SmartBudget.LargeAmount"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text=""
+    android:hint="$0.00"
+    android:textColorHint="@color/text_tertiary"
+    android:textColor="@color/success_green"
+    android:inputType="numberDecimal"
+    android:background="@android:color/transparent"
+    android:layout_marginTop="32dp"
+    android:layout_marginBottom="32dp" />

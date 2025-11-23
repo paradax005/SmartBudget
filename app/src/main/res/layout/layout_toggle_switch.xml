@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/bg_toggle_inactive"
+    android:padding="4dp"
+    android:layout_marginHorizontal="20dp"
+    android:layout_marginTop="16dp">
+
+    <TextView
+        android:id="@+id/btnExpense"
+        style="@style/Widget.SmartBudget.ToggleButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="Expense"
+        android:textColor="@color/text_secondary"
+        android:background="@drawable/bg_toggle_inactive" />
+
+    <TextView
+        android:id="@+id/btnIncome"
+        style="@style/Widget.SmartBudget.ToggleButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="Income"
+        android:textColor="@color/text_secondary"
+        android:background="@drawable/bg_toggle_inactive" />
+
+</LinearLayout>

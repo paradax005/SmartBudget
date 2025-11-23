@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">SmartBudget</string>
+    
+    <!-- Auth -->
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="name">Name</string>
+    <string name="dont_have_account">Don\'t have an account? Register</string>
+    <string name="already_have_account">Already have an account? Login</string>
+    
+    <!-- Dashboard -->
+    <string name="dashboard">Dashboard</string>
+    <string name="total_balance">Total Balance</string>
+    <string name="recent_transactions">Recent Transactions</string>
+    <string name="expenses_by_category">Expenses by Category</string>
+    <string name="total_income">Total Income</string>
+    <string name="total_expenses">Total Expenses</string>
+    <string name="net_amount">Net Amount</string>
+    <string name="budget_status">Budget Status</string>
+    <string name="budget_alerts">Budget Alerts</string>
+    <string name="budgets_exceeded">Budgets Exceeded</string>
+    <string name="view_all_budgets">View All Budgets</string>
+    <string name="view_all_transactions">View All Transactions</string>
+    <string name="view_all_categories">View All Categories</string>
+    <string name="this_month">This Month</string>
+    
+    <!-- Transactions -->
+    <string name="transactions">Transactions</string>
+    <string name="add_transaction">Add Transaction</string>
+    <string name="edit_transaction">Edit Transaction</string>
+    <string name="amount">Amount</string>
+    <string name="description">Description</string>
+    <string name="date">Date</string>
+    <string name="type">Type</string>
+    <string name="income">Income</string>
+    <string name="expense">Expense</string>
+    <string name="account">Account</string>
+    <string name="category">Category</string>
+    <string name="no_category">No Category</string>
+    
+    <!-- Accounts -->
+    <string name="accounts">Accounts</string>
+    <string name="add_account">Add Account</string>
+    <string name="edit_account">Edit Account</string>
+    <string name="account_type">Account Type</string>
+    <string name="balance">Balance</string>
+    <string name="checking">Checking</string>
+    <string name="savings">Savings</string>
+    <string name="credit_card">Credit Card</string>
+    
+    <!-- Budgets -->
+    <string name="budgets">Budgets</string>
+    <string name="add_budget">Add Budget</string>
+    <string name="edit_budget">Edit Budget</string>
+    <string name="period">Period</string>
+    <string name="monthly">Monthly</string>
+    <string name="weekly">Weekly</string>
+    <string name="yearly">Yearly</string>
+    <string name="start_date">Start Date</string>
+    <string name="end_date">End Date</string>
+    
+    <!-- Categories -->
+    <string name="categories">Categories</string>
+    <string name="add_category">Add Category</string>
+    <string name="edit_category">Edit Category</string>
+    <string name="icon">Icon</string>
+    <string name="color">Color</string>
+    <string name="icon_hint">Enter an emoji or icon identifier (e.g., 🛒)</string>
+    <string name="color_hint">Enter a hex color code (e.g., #FF5733)</string>
+    
+    <!-- Common -->
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="logout">Logout</string>
+    <string name="loading">Loading...</string>
+    <string name="error">Error</string>
+    <string name="success">Success</string>
+    <string name="no_data">No data available</string>
+    
+    <!-- Validation -->
+    <string name="invalid_email">Please enter a valid email</string>
+    <string name="invalid_password">Password must be at least 8 characters</string>
+    <string name="required_field">This field is required</string>
+    
+    <!-- Menu -->
+    <string name="menu_transactions">Transactions</string>
+    <string name="menu_accounts">Accounts</string>
+    <string name="menu_budgets">Budgets</string>
+    <string name="menu_categories">Categories</string>
+    <string name="menu_logout">Logout</string>
+</resources>

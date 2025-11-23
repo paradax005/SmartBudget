@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Premium 2026 Typography System -->
+    
+    <!-- Base TextAppearance style (required for hierarchical styles) -->
+    <style name="TextAppearance">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    
+    <!-- Display (Hero Numbers) -->
+    <style name="TextAppearance.Display" parent="TextAppearance">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textSize">56sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">-0.02</item>
+        <item name="android:lineSpacingMultiplier">1.1</item>
+    </style>
+    
+    <style name="TextAppearance.Display.Large" parent="TextAppearance.Display">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textSize">48sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">-0.02</item>
+    </style>
+    
+    <style name="TextAppearance.Display.Medium" parent="TextAppearance.Display">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">-0.02</item>
+    </style>
+    
+    <!-- Headline -->
+    <style name="TextAppearance.Headline" parent="TextAppearance">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">-0.02</item>
+        <item name="android:lineSpacingMultiplier">1.2</item>
+    </style>
+    
+    <!-- Title -->
+    <style name="TextAppearance.Title" parent="TextAppearance">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:lineSpacingMultiplier">1.3</item>
+    </style>
+    
+    <!-- Body Large -->
+    <style name="TextAppearance.BodyLarge" parent="TextAppearance">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:lineSpacingMultiplier">1.5</item>
+    </style>
+    
+    <!-- Body -->
+    <style name="TextAppearance.Body" parent="TextAppearance">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingMultiplier">1.5</item>
+    </style>
+    
+    <!-- Body Small -->
+    <style name="TextAppearance.BodySmall" parent="TextAppearance">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingMultiplier">1.4</item>
+    </style>
+    
+    <!-- Label -->
+    <style name="TextAppearance.Label" parent="TextAppearance">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">0.01</item>
+        <item name="android:lineSpacingMultiplier">1.3</item>
+    </style>
+    
+    <!-- Amount Typography (Monospaced) -->
+    <style name="TextAppearance.Amount" parent="TextAppearance">
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">-0.03</item>
+    </style>
+    
+    <style name="TextAppearance.Amount.Large" parent="TextAppearance.Amount">
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:textSize">56sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">-0.03</item>
+    </style>
+    
+    <style name="TextAppearance.Amount.Medium" parent="TextAppearance.Amount">
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">-0.03</item>
+    </style>
+    
+    <!-- Widget Styles -->
+    <!-- Base Widget style (required for hierarchical styles) -->
+    <style name="Widget">
+        <!-- Base widget style -->
+    </style>
+    
+    <!-- Base Widget.SmartBudget style (required for hierarchical styles) -->
+    <style name="Widget.SmartBudget" parent="Widget">
+        <!-- Base widget style -->
+    </style>
+    
+    <!-- Button Styles -->
+    <!-- Base Button style (required for hierarchical styles) -->
+    <style name="Widget.SmartBudget.Button" parent="Widget.SmartBudget">
+        <item name="android:layout_height">56dp</item>
+        <item name="android:minHeight">56dp</item>
+    </style>
+    
+    <style name="Widget.SmartBudget.Button.Primary" parent="Widget.SmartBudget.Button">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="cornerRadius">16dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:paddingStart">20dp</item>
+        <item name="android:paddingEnd">20dp</item>
+    </style>
+    
+    <!-- Card Styles -->
+    <!-- Base Card style (required for hierarchical styles) -->
+    <style name="Widget.SmartBudget.Card" parent="Widget.SmartBudget">
+        <item name="cardCornerRadius">24dp</item>
+        <item name="cardElevation">0dp</item>
+    </style>
+    
+    <!-- Glass Card Style -->
+    <style name="Widget.SmartBudget.Card.Glass" parent="Widget.SmartBudget.Card">
+        <item name="cardBackgroundColor">@color/surface</item>
+        <item name="android:layout_margin">8dp</item>
+    </style>
+    
+    <!-- Hero Card Style -->
+    <style name="Widget.SmartBudget.Card.Hero" parent="Widget.SmartBudget.Card">
+        <item name="android:minHeight">180dp</item>
+        <item name="android:layout_marginBottom">24dp</item>
+    </style>
+
+    <!-- DatePicker Theme -->
+    <style name="Theme.SmartBudget.DatePicker" parent="ThemeOverlay.Material3.MaterialCalendar">
+        <item name="colorSurface">@color/surface_dark_solid</item>
+        <item name="colorOnSurface">@color/white</item>
+        <item name="colorPrimary">@color/purple_primary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="android:windowBackground">@color/surface_dark_solid</item>
+    </style>
+    
+    <!-- Figma Design Component Styles -->
+    
+    <!-- Input Field Style -->
+    <style name="Widget.SmartBudget.InputField">
+        <item name="android:background">@color/surface_darker</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textColorHint">@color/text_secondary</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    
+    <!-- Toggle Button Style -->
+    <style name="Widget.SmartBudget.ToggleButton">
+        <item name="android:minHeight">48dp</item>
+        <item name="android:paddingStart">24dp</item>
+        <item name="android:paddingEnd">24dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    
+    <!-- Quick Amount Button Style -->
+    <style name="Widget.SmartBudget.QuickAmountButton">
+        <item name="android:minHeight">36dp</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingEnd">16dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:background">@color/surface_darker</item>
+    </style>
+    
+    <!-- Selector Card Style -->
+    <style name="Widget.SmartBudget.SelectorCard">
+        <item name="cardCornerRadius">12dp</item>
+        <item name="cardBackgroundColor">@color/surface_darker</item>
+        <item name="cardElevation">0dp</item>
+        <item name="android:padding">16dp</item>
+    </style>
+    
+    <!-- Account Type Button Style -->
+    <style name="Widget.SmartBudget.AccountTypeButton">
+        <item name="cardCornerRadius">16dp</item>
+        <item name="cardBackgroundColor">@color/surface_darker</item>
+        <item name="cardElevation">0dp</item>
+        <item name="android:padding">20dp</item>
+    </style>
+    
+    <!-- Large Amount Display Style -->
+    <style name="Widget.SmartBudget.LargeAmount">
+        <item name="android:textSize">48sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    
+    <!-- Status Badge Style -->
+    <style name="Widget.SmartBudget.StatusBadge">
+        <item name="android:paddingStart">12dp</item>
+        <item name="android:paddingEnd">12dp</item>
+        <item name="android:paddingTop">6dp</item>
+        <item name="android:paddingBottom">6dp</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>

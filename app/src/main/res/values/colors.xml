@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Figma Design System - Purple Theme -->
+    
+    <!-- Primary Colors (Purple) -->
+    <color name="purple_primary">#6C5CE7</color>
+    <color name="purple_light">#8B7FF5</color>
+    <color name="purple_dark">#5B4FD6</color>
+    
+    <!-- Legacy Primary (kept for compatibility, now points to purple) -->
+    <color name="indigo_600">@color/purple_primary</color>
+    <color name="violet_600">@color/purple_primary</color>
+    <color name="fuchsia_400">@color/purple_light</color>
+    
+    <!-- Background Colors (Darker Navy) -->
+    <color name="background_dark">#0A0E27</color>
+    <color name="background_dark_alt">#0D1117</color>
+    <color name="background_light">#FFFFFF</color>
+    <color name="background">@color/background_dark</color>
+    
+    <!-- Surface Colors -->
+    <color name="surface_dark">#1A1F3A</color>
+    <color name="surface_darker">#151B2E</color>
+    <color name="surface_dark_solid">#1E1E1E</color>
+    <color name="surface_light">#05000000</color>
+    <color name="surface">@color/surface_dark</color>
+    
+    <!-- Semantic Colors -->
+    <color name="success_green">#00D09C</color>
+    <color name="success_green_alt">#10B981</color>
+    <color name="emerald_500">@color/success_green_alt</color>
+    <color name="emerald_400">#34D399</color>
+    
+    <color name="error_red">#FF6B6B</color>
+    <color name="error_red_alt">#EF4444</color>
+    <color name="red_500">@color/error_red_alt</color>
+    <color name="red_400">#F87171</color>
+    
+    <color name="warning_yellow">#FFB800</color>
+    <color name="yellow_500">#FBBF24</color>
+    <color name="yellow_400">#FCD34D</color>
+    
+    <color name="info_cyan">#00D4FF</color>
+    <color name="cyan_500">#06B6D4</color>
+    <color name="cyan_500_glow">#4006B6D4</color>
+    
+    <!-- Account Type Colors -->
+    <color name="account_checking">#5B7CFF</color>
+    <color name="account_savings">#00D09C</color>
+    <color name="account_credit">#8B5CF6</color>
+    <color name="account_cash">#FF9500</color>
+    <color name="account_investment">#00D4FF</color>
+    
+    <!-- Text Colors -->
+    <color name="text_primary_dark">#FFFFFF</color>
+    <color name="text_primary_light">#000000</color>
+    <color name="text_primary">@color/text_primary_dark</color>
+    
+    <color name="text_secondary_dark">#8F92A1</color>
+    <color name="text_secondary_light">#6B7280</color>
+    <color name="text_secondary">@color/text_secondary_dark</color>
+    
+    <color name="text_tertiary_dark">#6B7280</color>
+    <color name="text_tertiary_light">#9CA3AF</color>
+    <color name="text_tertiary">@color/text_tertiary_dark</color>
+    
+    <!-- Border -->
+    <color name="border_dark">#14FFFFFF</color>
+    <color name="border_light">#14000000</color>
+    <color name="border">@color/border_dark</color>
+    
+    <!-- Divider -->
+    <color name="divider_dark">#0DFFFFFF</color>
+    <color name="divider_light">#0D000000</color>
+    <color name="divider">@color/divider_dark</color>
+    
+    <!-- Legacy colors (for backward compatibility) -->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">@color/purple_primary</color>
+    <color name="purple_700">@color/purple_dark</color>
+    <color name="teal_200">@color/cyan_500</color>
+    <color name="teal_700">@color/cyan_500</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="green">@color/success_green_alt</color>
+    <color name="red">@color/error_red_alt</color>
+</resources>

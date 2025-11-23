@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Figma Design Theme - Purple Primary -->
+    <style name="Theme.SmartBusget2" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary Brand Colors (Purple) -->
+        <item name="colorPrimary">@color/purple_primary</item>
+        <item name="colorPrimaryVariant">@color/purple_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <!-- Secondary/Accent -->
+        <item name="colorSecondary">@color/purple_light</item>
+        <item name="colorSecondaryVariant">@color/cyan_500</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <!-- Error/Warning -->
+        <item name="colorError">@color/red_500</item>
+        <item name="colorOnError">@color/white</item>
+        
+        <!-- Background (Pure Black for OLED) -->
+        <item name="android:colorBackground">@color/background_dark</item>
+        <item name="colorSurface">@color/surface_dark</item>
+        <item name="colorOnSurface">@color/text_primary_dark</item>
+        <item name="colorOnSurfaceVariant">@color/text_secondary_dark</item>
+        
+        <!-- Status Bar -->
+        <item name="android:statusBarColor">@color/background_dark</item>
+        <item name="android:windowLightStatusBar">false</item>
+        
+        <!-- Navigation Bar -->
+        <item name="android:navigationBarColor">@color/background_dark</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        
+        <!-- Window Background -->
+        <item name="android:windowBackground">@color/background_dark</item>
+        
+        <!-- Dialog Themes -->
+        <item name="materialCalendarTheme">@style/Theme.SmartBudget.DatePicker</item>
+        <item name="android:datePickerDialogTheme">@style/Theme.SmartBudget.DatePicker</item>
+    </style>
+    
+    <!-- Light Mode Theme -->
+    <style name="Theme.SmartBusget2.Light" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/purple_primary</item>
+        <item name="colorPrimaryVariant">@color/purple_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/purple_light</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorError">@color/red_500</item>
+        <item name="colorOnError">@color/white</item>
+        <item name="android:colorBackground">@color/background_light</item>
+        <item name="colorSurface">@color/surface_light</item>
+        <item name="colorOnSurface">@color/text_primary_light</item>
+        <item name="colorOnSurfaceVariant">@color/text_secondary_light</item>
+        <item name="android:statusBarColor">@color/background_light</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:navigationBarColor">@color/background_light</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:windowBackground">@color/background_light</item>
+    </style>
+    
+    <style name="Theme.SmartBusget2.AppBarOverlay" parent="ThemeOverlay.Material3.Dark">
+        <item name="android:textColorPrimary">@color/text_primary_dark</item>
+    </style>
+    
+    <style name="Theme.SmartBusget2.PopupOverlay" parent="ThemeOverlay.Material3.Dark">
+        <item name="android:textColorPrimary">@color/text_primary_dark</item>
+    </style>
+</resources>
