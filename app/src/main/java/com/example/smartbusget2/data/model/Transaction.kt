@@ -16,9 +16,17 @@ data class Transaction(
     @SerializedName("type")
     val type: String, // "expense" or "income"
     @SerializedName("accountId")
-    val account: Account? = null,
+    val accountIdString: String? = null,
+    
     @SerializedName("categoryId")
+    val categoryIdString: String? = null,
+    
+    @SerializedName("account")
+    val account: Account? = null,
+    
+    @SerializedName("category")
     val category: Category? = null,
+    
     @SerializedName("userId")
     val userId: String? = null,
     @SerializedName("createdAt")
@@ -31,12 +39,12 @@ data class Transaction(
         return id ?: _id ?: ""
     }
 
-    // Helper to get account ID
+    // Helper to get account ID (prefer string from JSON, then object's ID)
     val accountId: String?
-        get() = account?.actualId()
+        get() = accountIdString ?: account?.actualId()
 
-    // Helper to get category ID
+    // Helper to get category ID (prefer string from JSON, then object's ID)
     val categoryId: String?
-        get() = category?.actualId()
+        get() = categoryIdString ?: category?.actualId()
 }
 

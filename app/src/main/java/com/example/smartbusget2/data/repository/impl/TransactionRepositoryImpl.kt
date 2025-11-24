@@ -55,6 +55,8 @@ class TransactionRepositoryImpl @Inject constructor(
                         type = dto.type,
                         // We don't have the full account/category objects here, but that's fine for creation response
                         // The UI typically refreshes the list or just closes the activity
+                        accountIdString = dto.accountId,
+                        categoryIdString = dto.categoryId,
                         account = null, 
                         category = null,
                         userId = dto.userId,
@@ -89,6 +91,8 @@ class TransactionRepositoryImpl @Inject constructor(
                         description = dto.description,
                         date = dto.date,
                         type = dto.type,
+                        accountIdString = dto.accountId,
+                        categoryIdString = dto.categoryId,
                         account = null,
                         category = null,
                         userId = dto.userId,
@@ -131,7 +135,7 @@ class TransactionRepositoryImpl @Inject constructor(
             val response = apiService.getMonthlyStats(month, year)
             if (response.isSuccessful) {
                 val body = response.body()
-                body?.let { dto ->
+                body?.data?.let { dto ->
                     // Map DTO to Domain Model
                     val stats = com.example.smartbusget2.data.remote.MonthlyStatsResponse(
                         month = dto.month,

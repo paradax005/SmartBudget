@@ -87,7 +87,7 @@ interface ApiService {
     suspend fun getMonthlyStats(
         @Query("month") month: Int,
         @Query("year") year: Int
-    ): Response<MonthlyStatsDto>
+    ): Response<MonthlyStatsContainer>
 }
 
 // Request/Response DTOs
@@ -302,6 +302,13 @@ data class TransactionDto(
     @SerializedName("updatedAt")
     val updatedAt: String? = null
 )
+
+// Wrapper for Monthly Stats API Response
+data class MonthlyStatsContainer(
+    val data: MonthlyStatsDto,
+    val message: String? = null
+)
+
 // DTO for Monthly Stats (matching backend structure)
 data class MonthlyStatsDto(
     val month: Int,
