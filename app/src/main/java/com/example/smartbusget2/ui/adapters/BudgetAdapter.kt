@@ -36,7 +36,7 @@ class BudgetAdapter(
         private val tvStatus: TextView = itemView.findViewById(R.id.tvStatus)
 
         fun bind(budget: Budget) {
-            tvCategoryId.text = budget.categoryId ?: "No category"
+            tvCategoryId.text = (budget.category?.icon ?: "") + " " + (budget.category?.name ?: budget.categoryId ?: "No category")
             tvAmount.text = java.text.NumberFormat.getCurrencyInstance(java.util.Locale.getDefault()).format(budget.amount)
             
             // Display month/year instead of period

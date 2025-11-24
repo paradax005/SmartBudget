@@ -8,7 +8,8 @@ data class Budget(
     @SerializedName("_id")
     val _id: String? = null, // MongoDB format
     @SerializedName("categoryId")
-    val categoryId: String? = null,
+    val category: Category? = null,
+    
     @SerializedName("amount")
     val amount: Double,
     @SerializedName("month")
@@ -28,5 +29,9 @@ data class Budget(
     fun actualId(): String {
         return id ?: _id ?: ""
     }
+
+    // Helper to get category ID
+    val categoryId: String?
+        get() = category?.actualId()
 }
 
